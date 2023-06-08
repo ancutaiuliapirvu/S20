@@ -1,0 +1,97 @@
+1. Scrie o functie care sa returneze patratul unui numar.
+2. Scrie o functie prin care sa poti face conversia grade Celsius - Fahrenheit.
+3. Scrie o functie care sa calculeze aria si perimetrul unui cerc cu raza data.
+4. Scrie o functie care sa calculeze suma cifrelor unui numar.
+5. Scrie o functie care sa returneze un numar scris invers (de la sfarsit spre inceput)
+6. Scrie o functie care sa verifice daca un string este palindrom.
+7. Scrie o functie care sa calculeze factorialul unui nr dat.
+8. Scrie o functie care sa numere de cate ori apare litera "c" intr-un string.
+9. Scrie o functie care sa verifice daca un numar este prim.
+10. Scrie o functie care sa gaseasca maximul dintre 3 numere date.
+11. Scrie o functie care sa verifice daca un triunghi este isoscel, echilateral sau "normal". Extra: verifica daca este triunghi dreptunghic
+12. Scrie o functie care sa calculeze diferite operatii aritmetice cu 2 numere date. Operatiile posibile sunt: add, substract, multiply, divide, modulo
+13. Scrie o functie care sa converteasca nota primita de un student in urmatorul sistem:
+	"S" daca nota e intre 90 si 100
+	"A" daca nota e intre 80 si 90
+	"B" daca nota e intre 70 si 80
+	"C" daca nota e intre 60 si 70
+	"D" daca nota e intre 50 si 60
+	"E" daca nota e intre 40 si 50
+	"F" daca nota e intre 0 si 40
+14. Scrie o functie care sa returneze numarul de zile al unei luni.
+15. Scrie o functie care sa returneze toate numerele intre 125 si 175 care sunt divizibile cu 13.
+16. Scrie o functie care sa stearga un element dat dintr-un array (indiferent de cate ori apare).
+17. Scrie o functie care sa returneze numarul de cifre al unui numar dat.
+18. Scrie o functie care sa returneze numarul de 0 al unui numar dat.
+19. Scrie o functie care sa returneze produsul tuturor elementelor a 2 array-uri date.
+20. Scrie o functie care sa returneze varsta unei persoane calculata in zile(poti sa te bazezi pe 365 de zile intr-un an).
+21. Scrie o functie care sa returneze numarul de zile care a trecut de la o data stabilita (extra hard - ia in considerare anii bisecti).
+22. Se da un array de obiecte care contine o lista de bauturi, cu nume si pret:
+
+drinks = [
+	{name: "lemonade", price: 50},
+	{name: "lime", price: 10}
+]
+
+Scrie o functie care sorteaza bauturile din array in ordinea crescatoare a pretului.
+
+Exemplu:
+
+sortDrinkByPrice(drinks) ➞ [{name: "lime", price: 10}, {name: "lemonade", price: 50}]
+
+
+23. Scrie o functie care sa returneze de cate ori apare cuvantul "potato" intr-un string.
+
+Exemplu:
+
+potatoes("potato") ➞ 1
+
+potatoes("potatopotato") ➞ 2
+
+potatoes("potatoapple") ➞ 1
+
+
+24. Scrie o functie care primeste ca parametru un array care contine numere si stringuri si returneaza array-ul fara stringuri.
+
+Exemplu:
+
+filterArray([1, 2, "a", "b"]) ➞ [1, 2]
+
+filterArray([1, "a", "b", 0, 15]) ➞ [1, 0, 15]
+
+filterArray([1, 2, "aasf", "1", "123", 123]) ➞ [1, 2, 123]
+
+
+25. Scrie o functie care primeste ca parametru un array de numere si returneaza un array cu numerele sortate in ordine crescatoare.
+26. Un grup de prieteni s-a hotarat sa infiinteze o societate secreta. Numele societatii va fi format din prima litera a numelui fiecaruia dintre ei, sortate in ordine alfabetica si scris cu majuscule.
+
+Exemplu:
+
+societyName(["Adam", "Sarah", "Malcolm"]) ➞ "AMS"
+
+societyName(["Harry", "Newt", "Luna", "Cho"]) ➞ "CHLN"
+
+societyName(["Phoebe", "Chandler", "Rachel", "Ross", "Monica", "Joey"]) ➞ "CJMPRR"
+
+
+27. Scrie o functie care primeste ca parametru un array de numere si returneaza un array format din 2 elemente:
+	Primul element va fi suma tuturor numerelor pare din array.
+	Al doilea element va fi suma tuturor numerelor impare din array
+
+Example:
+
+sumOddAndEven([1, 2, 3, 4, 5, 6]) ➞ [12, 9]
+// 2 + 4 + 6 = 12 and 1 + 3 + 5 = 9
+
+sumOddAndEven([-1, -2, -3, -4, -5, -6]) ➞ [-12, -9])
+
+sumOddAndEven([0, 0]) ➞ [0, 0])
+ 
+
+
+
+
+
+NOTA:
+
+pt extra dificultate - conditii pt edge cases, verificare daca userul a introdus tipul corect de data, verificare daca se incadreaza intr-un interval logic, afisare de mesaje pt invaliditate
